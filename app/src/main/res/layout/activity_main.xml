@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sunyard.i80demo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnInitEmv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Init EMV" />
+
+        <Button
+            android:id="@+id/btnEmv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Card" />
+
+        <Button
+            android:id="@+id/btnPrint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print"/>
+
+        <Button
+            android:id="@+id/btn_inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Password"/>
+
+        <Button
+            android:id="@+id/btn_loadKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Keys"/>
+
+        <Button
+            android:id="@+id/btnDecryptKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decrypt Key" />
+
+        <Button
+            android:id="@+id/btn_dukpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DUKPT"/>
+
+        <Button
+            android:id="@+id/btnDesCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Des Calc Encrypt" />
+
+        <Button
+            android:id="@+id/btnDesCalcDecrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:text="Des Calc Decrypt" />
+
+        <Button
+            android:id="@+id/CodeOperate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:text="CurrencyCode and CountryCode" />
+
+        <Button
+            android:id="@+id/btnBeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beep" />
+
+        <Button
+            android:id="@+id/btnSignature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signature" />
+
+        <Button
+        android:id="@+id/btnQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QRCode" />
+
+        <Button
+            android:id="@+id/btnAPITest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="APITest" />
+
+        <Button
+            android:id="@+id/showSnAndEncryptedSn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="showSnAndEncryptedSn" />
+
+        <Button
+            android:id="@+id/startPinPad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="openPinPad" />
+
+        <Button
+            android:id="@+id/btn_silent_install"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="silentInstall" />
+
+    </LinearLayout>
+
+
+</ScrollView>
